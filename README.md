@@ -24,3 +24,6 @@ This project was very time-consuming.
 I used the scribble tutorial from QT to get started with the implementation.
 
 The only thing not implemented is the drawtype.
+
+
+![alt text](https://raw.githubusercontent.com/Flavyoo/Painter/master/build-bitmap-Desktop_Qt_5_8_0_GCC_64bit-Debug/paradise.bmp)
