@@ -1,0 +1,108 @@
+Drawing Area:
+    need an area to draw, paint, load image, and remove image
+    difference between drawing on an image vs drawing on a widget
+
+Menu Area:
+
+    SUB MENU:
+    Create new image - show a blank window to be drawn on
+                     - before showing blank window, ask user to save or delete the previous
+                       file if it exsts
+                     - ask user for size of the image to create
+                       give option to create or cancel
+
+    Load a bitmap file - dropdown to show users directories to search for files to load
+
+    Save image         - save current image as bitmap file
+                       - may also add other save formats
+                       - export feature?
+
+    Quit               - quit the program
+
+    EDIT MENU:
+    Customizing         - allow users to change background color
+                            -applied to the next new image to be created
+                       - also allow them to change pen color i.e, foreground color
+
+    Undo/Redo          - one level of undo and redo
+                            -could also add multiple levels of undo and redo
+
+    Clear Image        - create a new file and not save the old one?
+                       - maybe figure out other way to clear it
+
+    Resize Canvas      - give option to resize the canvas
+
+    Toolbar            - add button to show toolbar
+                         - dropdown of possible tools to edit shows up
+                       - provides shortcut for tools
+                         - pen properties
+                            - option to edit size of pen, color, etc
+                       - line properties
+                            - option to edit size of line, type, et
+                       - eraser properties
+                            - option to edit type and size of eraser
+                       - rectangle properties
+                            - option to edit l, w, h, of rectangle and x, y
+                            - default background also
+
+    TOOLS:             - implement pen and line tools
+                            create properties dialog for modification of the properties of the tool
+                       - inherit from QDialog to implement custom dialog
+                       - user QRadioButton, QButtonGroup, and QSlider to implement slider and button
+
+    Mouse Event Handling - overload mouse event handling to handle the following
+
+                        void mouseMoveEvent(QMouseEvent*)
+                        - Left Click  - Drawing
+                        - Right Click - Show properties of current tool
+                        void mouseMoveEvent(QMouseEvent *)
+                        - draw image when user drags the mouse after a left click
+                          - While left click pressed?
+                        void mouseReleaseEvent(QMouseEvent*)
+                        - confirm the drawing
+                            - do an automatic save?
+                        void mouseDoubleClickEvent(QMouseEvent *)
+                        - terminating drawing of polyline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
