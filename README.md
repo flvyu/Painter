@@ -1,6 +1,6 @@
 # Painter
 For this program I implemented a version of the paint program.
-The requirments I implemented include the following:
+The requirements I implemented include the following:
 create, load, save, change background and foreground color, one level undo and redo,
 clear, and I also implemented modifications of tools such as the pen tool,
 eraser tool, line tool, and rectangle tool.
