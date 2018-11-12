@@ -8,10 +8,10 @@ eraser tool, line tool, and rectangle tool.
 I added functionalities to a toolbal on the leftside of the window.
 I also added a tool dialog for the pentool, line tool, eraser tool, and rectangle tool.
 
-For sliders, I added a feaute to see the values as they changed, but this causes the labels to
-be removed. Each tool has their own pen and changing one pen does not change the pen of
+For sliders, I added a feature to see the values as they changed. 
+Each tool has their own pen and changing one pen does not change the pen of
 the other tool. For example, if the line tool width was changed to 20, the rectangle and
-eraser tool width would still be the default size.
+eraser tool width would still have their previous size.
 
 I also implemented mousePressevent, mouseReleaseevent, and mouseMoveEvent, but I did
 not implement a mouseDoubleClick event.
