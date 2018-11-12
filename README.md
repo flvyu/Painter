@@ -20,7 +20,6 @@ I also implemented mouseRightClick to access the dialogs. To do this, just right
 on the canvas after choosing the tool you want.
 
 OTHER:
-This project was very time-consuming.
 I used the scribble tutorial from QT to get started with the implementation.
 
 The only thing not implemented is the drawtype.
